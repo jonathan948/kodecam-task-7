@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.banner-container{
+    background: url("./images/lambo-car2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.home-header{
+    margin-top: 20% !important;
+}
+
+.home-para{
+    padding: 10px;
+}
+
+.home-para-moblile{
+    display: none;
+}
+
+@media(max-width: 768px){
+    .banner-container{
+        background: url("./images/lambo-car2.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100vh;
+        height: 100vh;
+        width: 100%;
+        background-position: 0 auto;
+    }
+
+    .home-header{
+        margin-top: 39%;
+    }
+    
+}
+
+@media(max-width: 540px){
+    .banner-container{
+        background: url("./images/lambo-car2.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100vh;
+        height: 100vh;
+        width: 100%;
+        background-position: 0 auto;
+    }
+
+    .home-header{
+        margin-top: 39% !important;
+    }
+    
+}
+
+@media(max-width: 520px){
+    .banner-container{
+        background: url("./images/lambo-car2.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100vh;
+        height: 100vh;
+        width: 100%;
+        background-position: 0 auto;
+    }
+
+    .home-header{
+        margin-top: 50% !important;
+    }
+    
+}
+
+@media(max-width: 320px){
+    .banner-container{
+        background: url("./images/lambo-car2.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100vh;
+        height: 100vh;
+        width: 100%;
+        background-position: 0 auto;
+    }
+
+    .home-header{
+        margin-top: 40%;
+    }
+
+    .home-para{
+        display: none;
+    }
+
+    .home-para-moblile{
+        display: block;
+    }
+    
+    
+}
